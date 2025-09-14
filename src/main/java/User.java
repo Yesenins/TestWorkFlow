@@ -2,11 +2,13 @@ public class User {
     int age;
     String name;
     boolean isActive;
+    UserController userController;
 
-    public User(int age, String name, boolean isActive) {
+    public User(int age, String name, boolean isActive, UserController userController) {
         this.age = age;
         this.name = name;
         this.isActive = isActive;
+        this.userController = userController;
     }
 
     @Override
@@ -15,6 +17,7 @@ public class User {
                 "age=" + age +
                 ", name='" + name + '\'' +
                 ", isActive=" + isActive +
+                ", userController=" + userController +
                 '}';
     }
 }
