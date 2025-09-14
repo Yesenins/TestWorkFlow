@@ -6,5 +6,7 @@ public class Main {
         Car car = new Car("BMW");
         STO sto = new STO("Azaz");
         System.out.println(car + " " +  sto);
+
+        System.out.println(car +" " + user);
     }
 }
