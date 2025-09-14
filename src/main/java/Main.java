@@ -5,6 +5,8 @@ public class Main {
         System.out.println(user);
         Car car = new Car("BMW", 12, 1234);
         STO sto = new STO("Azaz");
+        Phone phone = new Phone(123136546, "sun");
+        System.out.println(phone);
         System.out.println(car + " " +  sto);
     }
 }

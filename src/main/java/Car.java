@@ -8,4 +8,13 @@ public class Car {
         this.age = age;
         this.number = number;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", number=" + number +
+                '}';
+    }
 }
