@@ -4,6 +4,7 @@ public class Main {
                 new UserController("Florida", "USA", "12345"));
         System.out.println(user);
         Car car = new Car("BMW");
-
+        STO sto = new STO("Azaz");
+        System.out.println(car + " " +  sto);
     }
 }
