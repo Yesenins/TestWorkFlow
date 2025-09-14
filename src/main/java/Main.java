@@ -3,7 +3,7 @@ public class Main {
         User user = new User(18, "Alex", true,
                 new UserController("Florida", "USA", "12345"));
         System.out.println(user);
-        Car car = new Car("BMW");
+        Car car = new Car("BMW", 12, 1234);
         STO sto = new STO("Azaz");
         System.out.println(car + " " +  sto);
     }
